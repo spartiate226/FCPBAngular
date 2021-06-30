@@ -2,12 +2,58 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Angular</title>
+  <title>Gestion de congés</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="assets/admin-2.min.css">
+  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
 </head>
-<body>
-  <app-root></app-root>
+<body style="font-family: 'century gothic';">
+  <div class="row bg-success p-2">
+      <div class="col-md-4 d-flex">
+          </i><h3 class="text-light">App SharePoint</h3>
+      </div>
+      <div class="col-md-4">
+        <form class="d-sm-inline-block mb-3 w-100 navbar-search">
+            <div class="input-group">
+                <input type="text" id="search" class="form-control bg-light border-1 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="button">
+                        <i class="fa fa-search fa-sm"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+      </div>
+  </div>
+
+  <div class="row">
+
+  </div>
+  <div class="row">
+      <div class="col-md-2" style="border: 1px solid rgb(215, 220, 223); height: 85vh;">
+          <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Gestion des congés</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Gestion des Missions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Gestion des Achats</a>
+              </li>
+          </ul>
+      </div>
+      <div class="row col-md-10">
+          <div class="ml-5 mt-2">
+            <button class="btn btn-light"><span>+</span>Nouveau</button>
+          </div>
+      </div>
+  </div>
+
 </body>
 </html>
